@@ -2,7 +2,7 @@
 class Gear
   attr_reader :chainring, :cog, :wheel
 
-  def initialize(chainring, cog, wheel = nil)
+  def initialize(chainring: 40, cog: 18, wheel:)
     @chainring = chainring
     @cog = cog
     @wheel = wheel
